@@ -194,6 +194,7 @@ h2.recent-work {
     font-weight: bold;
     text-transform: uppercase;
     margin-top: -10px;
+    margin-bottom:20px;
     cursor: pointer;
 }
 .services button:hover
@@ -208,6 +209,7 @@ h2.recent-work {
     .services .type{
         float: none;
         width: 100%;
+        height:auto;
         margin-left: 5px
     }
     .services .type .maintenance{
