@@ -104,6 +104,9 @@ body {
     display: block;
     
     }
+    .header nav {
+        width:100%;
+    }
     .header nav ul{
         float: none;
         text-align: center;
