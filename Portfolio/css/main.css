@@ -204,7 +204,9 @@ body {
 /* End Banr */
 
 /* Start Skills */
-
+.skills{
+    width:100% 
+}
 .skills h2{
     text-align: center;
    font-size: 36px;
@@ -273,11 +275,6 @@ body {
         
     }
     
-}
-@media (min-width: 992px){
-    .skills{
-        width: 100%;
-    }
 }
 /* End Skills */
 
