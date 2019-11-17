@@ -75,6 +75,11 @@ body{
     justify-content: flex-start;
 }
 @media (max-width: 786px) {
+     .home{
+        margin-left: 0;
+        padding-left: 0;
+            
+    }
     .home h2{
         font-size: 35px;
     }
@@ -117,12 +122,16 @@ body{
     margin-bottom: 50px;
     color:  #707070;
 }
+@media (max-width: 786px) {
+    .features h2{
+        font-size: 35px;
+    }
 /* End Features */
 
 /* Start Overview */
 .bulding{
     background-color: #EDF5FF;
-    padding: 100px;
+    padding: 100px 0;
 }
 .bulding img{
     width: 100%;
@@ -159,7 +168,14 @@ body{
     text-decoration: underline;
     background-color: #9BB8DD;
 }
-
+@media (max-width: 786px) {
+    .bulding{
+        padding-left: 10px;
+    }
+    .bulding h2{
+        font-size: 35px;
+    }
+}
 /* End bulding */
 
 /* Start process */
@@ -209,6 +225,11 @@ body{
 .process img{
     width: 100%;
 }
+@media (max-width: 786px) {
+    .process h2{
+        font-size: 35px;
+    }
+ }
 /* End process */
 
 /* Start Our Client */
@@ -243,7 +264,11 @@ body{
     padding-bottom: 50px;
     
 }
-
+@media (max-width: 786px) {
+    .our-client h2{
+        font-size: 35px;
+    }
+   }
 /* End Our Client */
 /* start Preview */
 .preview{
@@ -264,7 +289,11 @@ body{
     font-size: 18px;
      color:  #666666;
 }
-
+@media (max-width: 786px) {
+   .preview h2{
+        font-size: 35px;
+    }
+}
 /* End Preview */
 /* Start Service */
 .service {
@@ -301,6 +330,11 @@ body{
     width: 50%;
     margin-left: 25%;
    
+}
+@media (max-width: 786px) {
+   .service h2{
+        font-size: 35px;
+    }
 }
 /* End service */
 
@@ -346,6 +380,11 @@ body{
 }
 .question img{
     width: 100%;
+}
+@media (max-width: 786px) {
+   .question h2{
+        font-size: 35px;
+    }
 }
 /* End question */
 
@@ -396,7 +435,11 @@ body{
     margin-left: 8px;
     font-size: 20px;
 }
-
+@media (max-width: 786px) {
+   .team h2{
+        font-size: 35px;
+    }
+}
 /* End Our Team */
 /* Start Service */
 .packages  {
@@ -456,6 +499,11 @@ body{
     text-decoration: underline;
     background-color: #9BB8DD;
 }
+@media (max-width: 786px) {
+  .packages h2{
+        font-size: 35px;
+    }
+}
 /* End service */
 
 /* Start Contact */
@@ -502,6 +550,11 @@ body{
     padding: 10px 22px;
     border-radius: 0;
     color: #fff;
+}
+@media (max-width: 786px) {
+  .contact h2{
+        font-size: 35px;
+    }
 }
 /* End Contact */
 
