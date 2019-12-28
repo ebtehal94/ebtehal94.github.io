@@ -92,12 +92,18 @@ input placeholder{
 }
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+    .home .home-content {
+    left: -20%;
+}
+    .home .home-img {
+    right: -20%;
+}
     .home .home-info {
         padding-top: 45%;
         padding-left: 50%;
     }
     .home .home-info .home-title {
-        font-size: 16px;
+        font-size: 15px;
     }
        .small-screen{
         visibility: visible;
