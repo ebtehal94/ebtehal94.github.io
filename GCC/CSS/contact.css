@@ -1,0 +1,106 @@
+/* Home */
+.home .home-info {
+    padding-top: 20%;
+}
+/* Home */
+/* Contact Us */
+.large-screen{
+    visibility: visible;
+}
+.small-screen{
+    visibility: hidden;
+    display:none;  
+}
+.contact-us{
+    width: 70%;
+    margin: auto;
+    padding: 80px 50px 50px;
+}
+.contact-us .footer-title{
+    font-weight: bold;
+    color: #000;
+}
+.contact-us .soical h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+.contact-us .soical li{
+    padding-right: 10px;
+    cursor: pointer
+}
+.contact-us .contact-form .form-control{
+    border-radius: 5px;
+    font-size: 13px;
+    margin-bottom: 12px;
+    background: #fff;
+    color: #000;
+    padding: 20px 12px;
+    border-color: #000;
+}
+.contact-us .contact-form .contact-submit{
+    background: #761827;
+    padding-top: 10px;
+    width: 60%;
+    color: #fff;
+    cursor: pointer;
+}
+input placeholder{
+    color: #000;
+}
+/* Contact Us */
+/* footer */
+.contact-map iframe{
+    height: 300px
+}
+/* footer */
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .home .home-info {
+        padding-top: 30%;
+    }
+    .contact-us {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact-us .footer-title, 
+    .contact-us .soical h3{
+        font-size: 20px;
+    }
+    .large-screen{
+        visibility: visible;
+        display: block
+    }   
+}
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .home .home-info {
+        padding-top: 25%;
+    }
+    .large-screen{
+        visibility: hidden;
+        display: none;
+    }
+    .small-screen{
+        visibility: visible;
+        display:block;
+    }
+    .small-screen .contact-info{
+        padding-top: 70px;
+    }
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .home .home-info {
+        padding-top: 45%;
+        padding-left: 50%;
+    }
+    .home .home-info .home-title {
+        font-size: 16px;
+    }
+       .small-screen{
+        visibility: visible;
+        display:block;
+    }
+}
