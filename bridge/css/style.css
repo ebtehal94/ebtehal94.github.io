@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scroll-to-top{
+    background-color: #33333308;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    padding: 0px 13px 3px;
+    position: fixed;
+    line-height: 40px;
+    bottom: 40px;
+    right: 25px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: none
+}
+.scroll-to-top:hover{
+    background: #5691D3;
+    border: none;
+    transition: .3s;
+}
+/* Navbar */
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+/* Navbar */
+
+/* Home */
+.home{
+    width: 100%;
+}
+.carousel-item {
+  height: 630px;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content{
+    position: relative;
+    margin-right: 50%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+}
+.caption {
+   position: absolute;
+    bottom: 320px;
+    left: 80px;      
+}
+ .seconed{
+    bottom: 500px;
+}
+.caption h3{
+    font-size: 16px;
+}
+.caption h2{
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    line-height: 1;    
+}
+.caption button{
+    background-color: #5790D2;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+/* Home */
+/* stratgy */
+.stratgy{
+    width: 100%;
+    padding:  80px 0;
+    text-align: center;
+}
+.stratgy i{
+    font-size: 35px;
+    color: #4C87CA;
+    font-weight: 100;
+    background: #F5F5F5;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+}
+.stratgy h3{
+    padding: 35px 0 18px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.stratgy p{
+    color: #3e3e3e;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+/* stratgy */
+/* About us */
+.about-us{
+    padding: 80px 0;
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.about-us h3{
+    font-size: 26px;
+    color: #3E3E3E;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.about-us p{
+    color: #3e3e3e;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    line-height: 2;
+}
+.about-us button{
+    background-color: #5790D2;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 15px
+}
+.about-us .img{
+    position: relative
+}
+.about-us .img img{
+    width: 100%
+}
+.about-us .start-button{
+    position: absolute;
+    left: 43%;
+    bottom: 40%;
+}
+.about-us .start-button i{
+    font-size: 35px;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+.about-us .start-button a{
+    color: #000;
+}
+.about-us .start-button i:hover{
+    background: #5790D2;
+    color: #fff;
+}
+/* About us */
+/* Our comapny */
+.our-company{
+    width: 100%;
+    padding: 80px 0;
+}
+.card{
+    border: none;
+}
+.card-body {
+    padding: 20px 0;
+}
+.card-body h5{
+    font-size: 17px;
+    color: #3E3E3E;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+.card-text {
+    color:#3e3e3e; 
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;
+    font-weight: 400
+}
+.btn{
+    color: #5790D2;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0;
+    font-size: 13px
+}
+/* Our comapny */
+/* parallax */
+.parallax{
+    width: 100%;
+    padding: 80px 0;
+    background: url(../image/parallax.jpg) center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.parallax h3{
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.parallax p{
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    line-height: 2;
+}
+.parallax button{
+    background-color: #5790D2;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.parallax h4{
+    font-size: 15px;
+    font-weight: bold
+}
+.progress{
+    margin-bottom: 25px;
+    background-color: rgba(255,255,255,0.25);
+}
+.progress-bar{
+    background-color: #fff
+}
+/* parallax */
+/* client */
+.client{
+    width: 100%;
+    background: #4C87CA;
+    padding: 30px 0;
+}
+/* client */
+/* Footer */
+.footer{
+    width: 100%;
+    padding: 100px 0;
+    background: #1E1E1E
+}
+.footer h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+.footer p{
+    color: #777777;
+    font-size: 14px;
+    padding-right: 35px;
+}
+.descrept p{
+    padding-top: 35px;
+}
+.footer a{
+    color: #fff;
+    text-decoration:none;
+}
+.footer a:hover{
+    color: #4C87CA;
+    transition: .3s
+}
+.footer i{
+    font-size: 20px;
+    background-color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+}
+.footer i:hover{
+    background: #4C87CA;
+    color: #fff;
+    transition: .3s;
+}
+.social-media{
+    padding-top: 20px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.footer li{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+/* Footer */
+/* copyright */
+.copyright{
+    width: 100%;
+    padding: 30px 0;
+    background: #242424;
+    color: #777777;
+    text-align: center;
+    font-size: 13px
+}
+/* copyright */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .carousel-inner .carousel-item{
+        height: 500px;
+    }
+     .stratgy {
+        padding:  0;
+    }
+     .about-us h3{
+    font-size: 24px;
+    padding-top: 0px;
+    }
+    .parallax button{
+        margin-bottom: 20px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-inner .carousel-item{
+        height: 500px;
+    }
+    .caption {
+        bottom: 75px;
+        left: 20px;
+    }
+    .caption h2 {
+        font-size: 45px;
+    }
+    .caption h3 {
+        font-size: 15px;
+    }
+    .stratgy {
+        padding:  0;
+    }
+    .about-us h3{
+    font-size: 24px;
+    padding-top: 15px;
+    }
+    .parallax button{
+        margin-bottom: 20px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+     .caption h2 {
+        font-size: 50px;
+    }
+    .caption {
+        bottom: 115px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .caption {
+        bottom: 210px;
+    }
+    .caption h2 {
+    font-size: 60px;
+    }
+}

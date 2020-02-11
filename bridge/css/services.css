@@ -1,0 +1,41 @@
+/* service */
+.service{
+    width: 100%;
+    padding: 70px 0;
+}
+.gray-color{
+    background: #F5F5F5;
+}
+.service h3{
+    font-size: 26px;
+    color: #3E3E3E;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.service p{
+    color: #3e3e3e;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    line-height: 2;
+}
+.service button{
+    background-color: #5790D2;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 15px
+}
+/* service */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .service img{
+        width: 330px;
+    }
+}

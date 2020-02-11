@@ -1,0 +1,14 @@
+/* Team */
+.our-team{
+    width: 100%;
+    padding: 100px 0;
+}
+.our-team button{
+    background: none;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #4C87CA;
+    font-weight: 600;
+}
+/* Team */
