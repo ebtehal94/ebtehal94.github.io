@@ -1,0 +1,86 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    color: #777;
+    direction: ltr !important;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1.4
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.left-text{
+    text-align: left;
+}
+.dir{
+    direction: rtl;
+}
+.lstNavLnk .itmNavLnk.orange {
+    padding-left: 50px;
+}
+.navbar .navbar-nav .nav-item {
+    padding: 0 26px;
+}
+.dropdown .fa {
+    padding-left: 5px;
+}
+@media only screen and (max-width: 991.98px) and (min-width: 766.98px){
+    .navbar .navbar-nav .nav-item {
+    padding: 0 7px;
+    }
+}
+.admin .btn {
+    margin-left: 5px;
+}
+.contact-us .title h3{
+    text-align: left;
+}
+.contact-us .contact-form {
+    padding-right: 40px;
+}
+.contact-us .list-unstyled img {
+    padding-right: 5px;
+}
+.footer .social, .subscribe {
+    text-align: left;
+}
+.footer .linked-list img {
+    padding-right: 5px;
+}
+.footer .btn {
+    margin-left: -16px;
+}
+.contentSec .title {
+    padding-left: 30px;
+}
+.contentSec .tab .tablist {
+    text-align: left;
+    float: left;
+    direction: ltr;
+}
+.contentSec .tab {
+    margin-right: 1%;
+}
+.contentSec .content {
+    float: left;
+    text-align: left;
+}
+.contentSec .tabcontent {
+    float: left;
+    text-align: left;
+}
+.contentSec .tabcontent h3{
+    float: left;
+    text-align: left;
+}
+.contentSec .tabcontent hr{
+    float: left;
+    text-align: left;
+}
+.co-contentSec .title {
+    text-align: left;
+    padding-left: 10%;
+}
