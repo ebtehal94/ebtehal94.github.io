@@ -224,19 +224,19 @@ body {
     width: 45%;
     margin-left: 5%;
 } */
-.skills .progress h3{
+.skills  h3{
     color: #384665;
     font-size: 18px;
     font-weight: 400
 }
 
-.skills .progress .skill div{
+.skills  .skill div{
     background-color: #F2F2F2;
     height: 14px;
     border-radius: 15px;
     
 }
-.skills .progress .skill div span{
+.skills  .skill div span{
     display: block;
     background-color: #ff7d9a;
     height: 14px;
